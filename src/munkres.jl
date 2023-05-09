@@ -307,7 +307,7 @@ function erase_primes_and_cover_stars!(
         for r in nzrange(mask, j)
             i = rows[r]
             if mask[i, j] == PRIME
-                mask[i, j] == ZERO
+                mask[i, j] = ZERO
             elseif mask[i, j] == STAR
                 rowSTAR[i] = true
                 colSTAR[j] = true
