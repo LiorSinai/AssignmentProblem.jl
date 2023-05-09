@@ -85,4 +85,4 @@ include("test/munkres.jl")
 
 ## Related Packages
 
-[Hungarian.jl](https://github.com/Gnimuc/Hungarian.jl) runs marginally faster than this version. One reason is it uses more preallocation of arrays.
+[Hungarian.jl](https://github.com/Gnimuc/Hungarian.jl) runs up to 2&times; faster than this version. One reason is it uses more preallocation of arrays.
